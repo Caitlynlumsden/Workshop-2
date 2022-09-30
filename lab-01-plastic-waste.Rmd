@@ -90,3 +90,9 @@ plastic_waste_edit <- plastic_waste %>%
 # remove this comment and add the code for Exercise 8 here
 ```
 
+```{r recreate-}
+ggplot(data = plastic_waste, 
+       mapping = aes(x = continent, 
+                     y = plastic_waste_per_cap)) +
+  geom_boxplot()
+```
